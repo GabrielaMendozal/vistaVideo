@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoLab</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1 class="title">VideoLab</h1>
+        <input type="text" name="buscador" placeholder="buscador" class="buscador">
+        <button class="login" onclick="login(this)">Login</button>
+    </div>
+    <div class="contenedor">
+        <div class="ladoI">
+            <video class="video" src="https://player.vimeo.com/progressive_redirect/playback/694124248/rendition/540p?loc=external&oauth2_token_id=57447761&signature=880078bc599167bce38754d94115a8a4016ac3b4feb431652cc1aa06c12731ab" controls></video>
+            <div class="sec2">
+                <div class="info">
+                    <h1>
+                        Example Video Title
+                    </h1>
+                    <p>
+                        1.3K views | June 18, 2021
+                    </p>
+                </div>
+                <button class="subscribe" onclick="mensaje()">Subscribe</button>  
+            </div>                 
+            <div class="user">
+                <img class="userFoto"  src="./user-circle.png" alt="fotoPerfil" >
+                <p class="userName">Example User Name</p>
+            </div>
+        </div>
+        <div class="ladoD">
+            <h4>Up Next</h4>
+            <div class="sec">
+                <video class="video2" src="https://player.vimeo.com/external/499168140.sd.mp4?s=2e3f10847456da44de35b62ce6abf67820db7825&profile_id=165&oauth2_token_id=57447761" controls></video>
+                <p class="nameVideo">Not a Rick Roll</p>
+            </div>
+            <div class="sec">
+                <video class="video2" src="https://player.vimeo.com/external/464476643.sd.mp4?s=5659c7980e3b3a79668b0af07052b5ba509ca72f&profile_id=165&oauth2_token_id=57447761" controls></video>
+                <p class="nameVideo">10 Facts Aboit ET's Cat</p>
+            </div>
+            <div class="sec">
+                <video  class="video2" src="https://player.vimeo.com/external/446538855.sd.mp4?s=ecfc7446ea0391848007b2697ec82fae1e6e5759&profile_id=165&oauth2_token_id=57447761" controls></video>
+                <p class="nameVideo">5 Cosplay Tips</p>
+            </div>
+            <div class="sec">
+                <video  class="video2" src="https://player.vimeo.com/external/655305103.sd.mp4?s=f5fdd3d6b7914f6ea5da4168786a9557e2ad67e7&profile_id=165&oauth_token_id=57447761" controls></video>
+                <p class="nameVideo">Boy Battles Dinobot in Thunderdome</p>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

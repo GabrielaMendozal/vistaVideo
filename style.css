@@ -1,0 +1,76 @@
+body{
+    font-family: 'Balsamiq Sans';
+    padding: 0 10%;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color:lightgrey;
+    align-items: center;
+    padding: 1%;
+    width: 100%;
+}
+
+.buscador{
+    flex: 1;
+    margin: 5%;
+}
+
+.login {
+    background-color: #4477be;
+    color: white;
+}
+
+.video{
+    width: 90%;
+    margin: 1%;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.ladoI{
+    flex:2;
+}
+.ladoD{
+    flex:1;
+}
+
+.sec2{
+    display: flex;
+    align-items: center;
+}
+
+.info{
+   flex: 1;
+}
+
+.sec{
+    display: flex;
+    margin: 1%;
+}
+
+
+.video2{
+    width: 50%;
+}
+.subscribe{
+    background-color: rgb(146, 42, 243);
+    box-shadow: 3px 3px 0px 0px black;
+}
+.user{
+    display: flex;
+}
+.userName{
+    color: rgb(146, 42, 243);
+}
+
+h1, p{
+    margin: 0;
+}
+
+.userFoto{
+    height: 20px;
+}
